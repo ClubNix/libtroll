@@ -1,0 +1,3 @@
+option('destruction_level', type: 'string', value: '2', description: 'The global destruction level')
+
+# vim: ft=cmake

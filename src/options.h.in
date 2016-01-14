@@ -1,0 +1,15 @@
+#define DESTRUCTION_LEVEL @destruction_level@
+
+#if DESTRUCTION_LEVEL   == 1
+#	define COSMETIC_LEVEL
+#elif DESTRUCTION_LEVEL == 2
+#	define WEIRD_LEVEL
+#elif DESTRUCTION_LEVEL == 3
+#	define CRASH_O_MATIC_LEVEL
+#elif DESTRUCTION_LEVEL == 4
+#	define DATA_DESTROYER_LEVEL
+#elif DESTRUCTION_LEVEL == 5
+#	define NUKE_LEVEL
+#else
+#	define WEIRD_LEVEL
+#endif
