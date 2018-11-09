@@ -5,11 +5,30 @@ A library for really horrible people.
 
 By using this library, you agree to the fact that you are a really horrible
 person and if anything happens to your computer or a computer of a co-worker,
-you (or he) deserved it.
+you (or (s)he) deserved it.
 
 ## Description
 
 **TODO**
+
+## Compiling
+
+- Install [meson](https://mesonbuild.com/)
+- `meson --buildtype=release build`
+- `cd build`
+- `ninja`
+
+## Using
+
+- Make sure that the environment variable `LD_PRELOAD` points to the compiled
+  library.
+- Run the program
+
+For example, if you do `LD_PRELOAD=build/src/libtroll.so whoami` in the source
+directory after building the project, `whoami` will print your user name in pink
+
+For maximum evilness, you can set the `LD_PRELOAD` in a user's profile. This
+leads to permanent fun!
 
 ## Levels
 
