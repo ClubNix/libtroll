@@ -12,7 +12,7 @@
 
 // A macro that makes a getter to the original function.
 //
-// Exemple:
+// Example:
 //
 //   If I want to "override" the `int puts(const char* string)` and I want to
 //   use the original `puts` function, I cannot call it directly in the body of
